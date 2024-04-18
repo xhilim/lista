@@ -15,4 +15,17 @@ void wczytajZPliku(struct Person** head);
 void swap(struct Person* a, struct Person* b);
 void bubbleSort(struct Person* start);
 int strcasecmp(const char* s1, const char* s2);
+
+struct Person
+{
+    char* Lname;
+    char* Name;
+    int age;
+    char* pesel;
+    bool woman;
+    struct Person* next;
+    struct Person* prev;
+
+};
+
 #endif // FUNCTIONS
