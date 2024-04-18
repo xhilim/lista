@@ -5,36 +5,6 @@
 #include <string.h>
 #include <ctype.h>
 
-struct Person
-{
-	 char* Lname;
-	 char* Name;
-	int age;
-	char  *pesel;
-	bool woman;
-	struct Person* next;
-	struct Person* prev;
-
-};
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include "functions.h"
-#include <string.h>
-#include <ctype.h>
-
-struct Person
-{
-	 char* Lname;
-	 char* Name;
-	int age;
-	char  *pesel;
-	bool woman;
-	struct Person* next;
-	struct Person* prev;
-
-};
 
 
 
