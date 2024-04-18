@@ -4,17 +4,7 @@
 #include<string.h>
 #include "functions.h"
 
-struct Person
-{
-    char* Lname;
-    char* Name;
-    int age;
-    char* pesel;
-    bool woman;
-    struct Person* next;
-    struct Person* prev;
 
-};
 
 
 
